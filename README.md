@@ -153,10 +153,11 @@ loaded_model <- readRDS("best_model.rds")
 
 # Task Five: Findings and Conclusions
 # Draw insights and conclusions
+```r
 cat("The Logistic Regression model performed the best based on accuracy. This model is saved and can be deployed for predicting stroke risk based on patient data.\n")
 cat("Next steps include integrating the model into a web service or application for end-user predictions.\n")
 cat("Limitations of the model include its performance on different datasets and the need for regular updates with new data.\n")
-
+```
 
 
 
